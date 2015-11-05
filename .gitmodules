@@ -14,5 +14,5 @@
                 path = bundle/badwolf
                 url = https://github.com/sjl/badwolf.git
 [submodule "bundle/ag.vim"]
-                path = bundle/ag.vim
+                path = bundle/ag
                 url = https://github.com/rking/ag.vim.git

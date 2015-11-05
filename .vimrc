@@ -1,6 +1,7 @@
 execute pathogen#infect()
-syntax on
+syntax enable 
 filetype plugin indent on
+call pathogen#infect()
 
 " Spaces & Tabs
 set tabstop=4       " number of visual spaces per TAB
@@ -43,11 +44,7 @@ let mapleader=","       " leader is comma
 " jk is escape
 inoremap jk <esc>
 
-" Solarized Colorscheme for Vim
-"syntax enable
-"set background=dark
 colorscheme badwolf
-" Make the gutters darker than the background.
-let g:badwolf_darkgutter = 1
+set background=dark
 
 set runtimepath^=~/.vim/bundle/ag
